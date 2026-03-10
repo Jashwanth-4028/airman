@@ -1,0 +1,27 @@
+.dashboard{
+ display:flex;
+ height:100vh;
+ font-family:Arial;
+}
+
+.sidebar{
+ width:220px;
+ background:#1e293b;
+ color:white;
+ padding:20px;
+}
+
+.sidebar h2{
+ margin-bottom:30px;
+}
+
+.menu p{
+ margin:15px 0;
+ cursor:pointer;
+}
+
+.main{
+ flex:1;
+ padding:30px;
+ background:#f1f5f9;
+}
